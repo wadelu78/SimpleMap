@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace SimpleMap
 {
+    /// <summary>
+    /// a DataBlock class
+    /// </summary>
     class DataBlock
     {
         public string type;
