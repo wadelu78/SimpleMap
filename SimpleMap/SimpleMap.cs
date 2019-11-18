@@ -39,10 +39,10 @@ namespace SimpleMap
             panY = -1;
         }
 
-        public void loadPolygonData(String mifFlie, String midFile)
+        public void loadPolygonData(string mifFlie, string midFile)
         {
-            String sTemp;
-            String[] strR;
+            string sTemp;
+            string[] strR;
             int segment;
             StreamReader sr = File.OpenText(mifFlie);
             //ignore the head part
@@ -84,10 +84,10 @@ namespace SimpleMap
             sr.Close();
 
         }
-        public void loadPolylineData(String mifFlie, String midFile)
+        public void loadPolylineData(string mifFlie, string midFile)
         {
-            String sTemp;
-            String[] strR;
+            string sTemp;
+            string[] strR;
             int segment;
             StreamReader sr = File.OpenText(mifFlie);
             //ignore the head part, 14 lines
@@ -135,10 +135,10 @@ namespace SimpleMap
             }
             sr.Close();
         }
-        public void loadPointData(String mifFlie, String midFile)
+        public void loadPointData(string mifFlie, string midFile)
         {
-            String sTemp;
-            String[] strR;
+            string sTemp;
+            string[] strR;
             int segment;
             StreamReader sr = File.OpenText(mifFlie);
             //ignore the head part, 11 lines
@@ -168,7 +168,7 @@ namespace SimpleMap
 
             sr = File.OpenText(midFile);
             char[] sep = {','};
-            List<String> pointName = new List<string>();
+            List<string> pointName = new List<string>();
             while (sr.Peek() != -1)
             {
                 sTemp = sr.ReadLine();

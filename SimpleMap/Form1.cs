@@ -15,8 +15,8 @@ namespace SimpleMap
         SimpleMap mapLayer1;  //polygon layer
         SimpleMap mapLayer2;  //pline layer
         SimpleMap mapLayer3;  //point layer
-        String strStatusScale = "scale = ";
-        String strStatusLonLat = "[ lon , lat ] = ";
+        string strStatusScale = "scale = ";
+        string strStatusLonLat = "[ lon , lat ] = ";
         public Form1()
         {
             mapLayer1 = new SimpleMap();
