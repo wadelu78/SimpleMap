@@ -16,7 +16,7 @@ The "SampleData" folder includes six sample data files:
 The data source comes from the OpenStreetMap project, it is the area of Bruegge in Belgium. 
 https://download.bbbike.org/osm/bbbike/Bruegge/
 
-The data is converted to Mid/Mif file using QGIS (https://qgis.org/en/site/) because it is a plain text file format, appropriate for an example program.
+The data is converted to Mid/Mif file using QGIS https://qgis.org/en/site/ because it is a plain text file format, appropriate for an example program.
 
 When compiling the program, please modify the file path to the place where you put the sample data files.
 
