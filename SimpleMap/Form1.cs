@@ -20,11 +20,11 @@ namespace SimpleMap
         public Form1()
         {
             mapLayer1 = new SimpleMap();
-            mapLayer1.loadPolygonData(@"e:\layerNatural.mif", "#");
+            mapLayer1.loadPolygonData(@"e:\CSharpLocal\SimpleMap\SampleData\layerNatural.mif", "#");
             mapLayer2 = new SimpleMap();
-            mapLayer2.loadPolylineData(@"e:\layerRoads.mif", "#");
+            mapLayer2.loadPolylineData(@"e:\CSharpLocal\SimpleMap\SampleData\layerRoads.mif", "#");
             mapLayer3 = new SimpleMap();
-            mapLayer3.loadPointData(@"e:\layerPlaces.mif", @"e:\layerPlaces.mid");
+            mapLayer3.loadPointData(@"e:\CSharpLocal\SimpleMap\SampleData\layerPlaces.mif", @"e:\CSharpLocal\SimpleMap\SampleData\layerPlaces.mid");
             
             InitializeComponent();
 
