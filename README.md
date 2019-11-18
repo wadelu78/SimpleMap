@@ -1,7 +1,7 @@
 # SimpleMap
 This is Simple Vector Map Example.
 
-The program reads a Mid/Mif GIS data file and create a vector map. It supports zoom and pan operations.
+The program reads a Mid/Mif GIS data file and creates a vector map. It supports zoom and pan operations.
 
 ![A Simple Vector Map](https://demo-01.s3-ap-southeast-2.amazonaws.com/SimpleMapDemo.jpg)
 
@@ -16,7 +16,7 @@ The "SampleData" folder includes six sample data files:
 The data source comes from the OpenStreetMap project, it is the area of Bruegge in Belgium. 
 https://download.bbbike.org/osm/bbbike/Bruegge/
 
-The data is converted to Mid/Mif file using QGIS https://qgis.org/en/site/ because it is a plain text file format, appropriate for an example program.
+The data is converted to Mid/Mif files using QGIS https://qgis.org/en/site/ because the Mid/Mif format is a plain text file format, appropriate for an example program.
 
 When compiling the program, please modify the file path to the place where you put the sample data files.
 
