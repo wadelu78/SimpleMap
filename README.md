@@ -33,3 +33,12 @@ mapLayer3 = new SimpleMap();
 
 mapLayer3.loadPointData(@"e:\CSharpLocal\SimpleMap\SampleData\layerPlaces.mif", @"e:\CSharpLocal\SimpleMap\SampleData\layerPlaces.mid");
 ```
+
+This project is built based on my previous work experience. Various systems related to vector map data visualisation can be developed by using such a method. On top of the background map, user data is displayed as other layers.
+
+![User data as a layer](https://demo-01.s3-ap-southeast-2.amazonaws.com/typhoon-warning-system.jpg)
+
+This image comes from a hurricane warning system I developed a few years ago. History and forecast data of a hurricane is extracted from a database and visualised on top of a vector map.
+
+I was asked to make a tutorial in the past to explain this algorithm, and I recorded some videos to illustrate the basic idea of vector map visualisation.
+https://www.youtube.com/watch?v=tjTBTwGHJSA
