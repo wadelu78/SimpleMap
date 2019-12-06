@@ -1,7 +1,7 @@
 # SimpleMap
-This is Simple Vector Map Example.
+This is a vector map example program.
 
-The program reads a Mid/Mif GIS data file and create a vector map. It supports zoom and pan operations.
+The program reads Mid/Mif GIS data files and creates a vector map with multiple layers. It supports zoom and pan operations.
 
 ![A Simple Vector Map](https://demo-01.s3-ap-southeast-2.amazonaws.com/SimpleMapDemo.jpg)
 
